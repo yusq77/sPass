@@ -1,0 +1,15 @@
+#.PHONY: build test clean
+CC=gcc
+CFLAG=-Wall -g
+
+LIBLD=-L/usr/lib64/ -lmyso
+BIN=test
+
+.PHONY: test
+
+all:$(BIN)
+test: test.c
+	$(CC) $(CFLAGS) -o $@ $^  $(LIBLD)
+
+clean:
+	rm -f *.o *.so test

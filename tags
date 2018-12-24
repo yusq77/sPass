@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIN	Makefile	/^BIN = UnionDec libmyso.so$/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall -g -Wno-pointer-sign$/;"	m
+GetLocalIP	common.c	/^void GetLocalIP(char *IP)$/;"	f
+LIBLD	Makefile	/^LIBLD= -L..\/..\/lib64 -L\/usr\/lib64\/mysql\/ -L\/usr\/lib64\/ -luniondb_s \\$/;"	m
+LINE_SIZE	common.c	212;"	d	file:
+Need_auto_Su_passwd	common.c	/^int Need_auto_Su_passwd(char *cmd_str,char *en_cmd, char **switchname)$/;"	f
+ReadSpeacialLine	common.c	/^char* ReadSpeacialLine(const char* filename, int whichLine)$/;"	f
+UNION_ENCMODE_ACC_PSWD	unionenc.h	/^	UNION_ENCMODE_ACC_PSWD,	$/;"	e	enum:__anon1
+UNION_ENCMODE_ACC_PSWD_FILE	unionenc.h	/^	UNION_ENCMODE_ACC_PSWD_FILE,$/;"	e	enum:__anon1
+UNION_ENCMODE_HACTOKEN	unionenc.h	/^	UNION_ENCMODE_HACTOKEN$/;"	e	enum:__anon1
+UNION_ENCMODE_HWINFO	unionenc.h	/^	UNION_ENCMODE_HWINFO,$/;"	e	enum:__anon1
+UNION_ENCMODE_LICENSE	unionenc.h	/^	UNION_ENCMODE_LICENSE,$/;"	e	enum:__anon1
+UNION_ENCMODE_NORMAL	unionenc.h	/^	UNION_ENCMODE_NORMAL = 0,$/;"	e	enum:__anon1
+UNION_ENCMODE_PATCH_FILE	unionenc.h	/^	UNION_ENCMODE_PATCH_FILE,$/;"	e	enum:__anon1
+UNION_ENCMODE_USER_TOKEN	unionenc.h	/^	UNION_ENCMODE_USER_TOKEN,$/;"	e	enum:__anon1
+UNION_ENC_H	unionenc.h	2;"	d
+UNION_KEY_TRANS_NORMAL	unionenc.h	/^	UNION_KEY_TRANS_NORMAL = 1,$/;"	e	enum:__anon2
+UNION_KEY_TRANS_PSWDFILE_EXPORT	unionenc.h	/^	UNION_KEY_TRANS_PSWDFILE_EXPORT$/;"	e	enum:__anon2
+Usage	main.c	/^void Usage()$/;"	f
+__COMMON_H__	common.h	2;"	d
+add_ok	common.c	/^int add_ok(int a, int b, int *sum)$/;"	f
+dec_enc	main.c	/^void dec_enc(int type)$/;"	f
+decrypt	common.c	/^void decrypt(unsigned char *pwd)$/;"	f
+encrypt	common.c	/^void encrypt(unsigned char *pwd)$/;"	f
+getLocalTime	common.c	/^void getLocalTime()$/;"	f
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+mul_ok	common.c	/^int mul_ok(int a, int b, int *mul)$/;"	f
+parse_arg	main.c	/^void parse_arg( int argc, char **argv )$/;"	f
+pwd	main.c	/^static char *pwd =NULL;$/;"	v	file:
+testSwitch	common.c	/^void testSwitch()$/;"	f
+type	main.c	/^static int type;$/;"	v	file:
